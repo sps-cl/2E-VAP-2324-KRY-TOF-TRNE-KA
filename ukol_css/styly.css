@@ -1,0 +1,42 @@
+h1{
+    font-family: sans-serif;
+    font-size: 7vw;
+    color: brown;
+}
+div h2, p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+strong{
+    font-style: italic;
+    font-size: 3rem
+}
+vstup{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1,5em;
+}
+#jmeno{
+    background-color: brown;
+    
+}
+li:hover{
+    background-color: lightgray;
+}
+div td,th{
+    font-size: 2rem;
+    border-collapse: collapse;
+    
+}
+thead{
+    background-color: gray;
+    color: white;
+}
+tbody{
+    background-color: white;
+    color: gray;
+}
+
+table{
+    background-color:black;
+    border: 3px;
+}
