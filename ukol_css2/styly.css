@@ -49,3 +49,19 @@
 .inline-div:hover, .inline-block-div:hover, .block-div:hover, .flex-div:hover{
     background-color: purple;
 }
+@keyframes animation {
+    0%{
+        width: 100px;
+    }
+
+    100%{
+        width: 200px;
+    }
+}
+
+.inline-div, .inline-block-div, .block-div, .flex-div {
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
