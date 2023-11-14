@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>samostatná práce</title>
+    <link rel="stylesheet" href="styly.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <nav>
+    <a href="index.html">home</a>
+    <a href="obrazky.html">obrazky</a>
+    </nav>
+    <h1>Kryštof Trnečka</h1>
+    <p style="text-indent: 48px;">
+        Lorem <b>ipsum</b> <i>dolor</i> <sub>sit</sub> <sup>amet</sup> consectetur adipisicing elit. Asperiores, a amet! Accusamus suscipit vero beatae architecto corporis, et porro atque assumenda ipsum nisi totam eaque ipsam aliquid dolorum? Fugiat, magni!</p>
+        <ol type = "I">
+            <li>pomdělí</li>
+            <li>uterý</li>
+            <li>středa</li>
+        </ol>
+        
+        <ul>
+           <li>leden</li>
+           <li>únor</li>
+           <li>březen</li>
+        </ul>
+        <form action="data.html" method="GET">
+          <table>
+             <thead>
+                 <tr>
+                 <th colspan="2">Registrace</th>
+                 </tr>
+            </thead>
+             <tbody>
+                  <tr>
+                    <td><label for="jmeno">Jméno:</label></td>
+                  <td><input type="text" id="jmeno" name="jmeno" required></td>
+                  </tr>
+    
+                  <tr>
+                    <td><label for="heslo">Heslo:</label></td>
+                       <td><input type="password" id="heslo" name="heslo" required></td>
+                </tr>
+    
+                  <tr>
+                    <td><label for="vek">Věk:</label></td>
+                    <td><input type="number" id="vek" name="vek" min="0" max="150" required></td>
+                 </tr>
+    
+                 <tr>
+                      <td><label for="email">Email:</label></td>
+                     <td><input type="email" id="email" name="email" required></td>
+                 </tr>
+    
+                 <tr>
+                    <td><label for="student">Student:</label></td>
+                      <td><input type="checkbox" id="student" name="student"></td>
+                 </tr>
+    
+                  <tr>
+                      <td>Pohlaví:</td>
+                      <td>
+                          <input type="radio" id="muz" name="pohlavi" value="muz" required><label for="muz">muz</label>
+                         <input type="radio" id="zena" name="pohlavi" value="zena" required><label for="zena">zena</label>
+                          <input type="radio" id="helikoptera" name="pohlavi" value="helikoptera" required><label for="helikoptera">helikoptera</label>
+                     </td>
+                </tr>
+
+            </tbody>
+        </table>
+    <input type="submit" value="potvrdit">
+    </form>
+    </body>
+</html>
+
+
